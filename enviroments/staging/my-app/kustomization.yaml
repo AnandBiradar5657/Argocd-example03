@@ -4,7 +4,7 @@ replicas:
   - name: nginx-deployment
     count: 2
 images:
-  - name: nginx
-    newTag: v0.1.0
+  - name: anandb1ra/pythonsquare
+    newTag: 0.0.2
 resource:
   - ../../../my-app-base
