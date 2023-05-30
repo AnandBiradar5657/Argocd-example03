@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: anandb1ra/pythonsquare
+        image: nginx
         ports:
         - containerPort: 80
