@@ -1,0 +1,10 @@
+---
+namespace: staging
+replicas:
+  - name: nginx-deployment
+    count: 2
+images:
+  - name: anandb1ra/pythonsquare
+    newTag: v0.1.0
+resource:
+  - ../../../my-app-base
